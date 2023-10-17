@@ -8,9 +8,9 @@ use App\DataTables\UserDataTable;
 
 class UserController extends Controller
 {
-    // Nama    : Davin Wahyu Wardana
-    // NIM     : 6706223003
-    // Kelas   : D3IF-4603
+    // NAMA: MUHAMAD HUDANSAH
+    // NIM: 6706223049
+    // KELAS: 46-03
     
     // public function index() {
     //     $users = User::all();

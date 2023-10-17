@@ -5,9 +5,9 @@
         </h2>
     </x-slot>
 <!-- 
-Nama    : Davin Wahyu Wardana
-NIM     : 6706223003
-Kelas   : D3IF-4603 
+NAMA: MUHAMAD HUDANSAH
+NIM: 6706223049
+KELAS: 46-03
 -->
 @section('content')
     <div class="py-12">

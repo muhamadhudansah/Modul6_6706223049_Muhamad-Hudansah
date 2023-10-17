@@ -15,8 +15,9 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider and all of them will
 | be assigned to the "web" middleware group. Make something great!
 | 
-    Nama : Azka Faris Akbar
-    Nim : 6706220020
+    NAMA: MUHAMAD HUDANSAH
+    NIM: 6706223049
+    KELAS: 46-03
 */
 
 Route::get('/', function () {
