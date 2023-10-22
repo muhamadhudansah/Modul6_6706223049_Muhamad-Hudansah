@@ -15,7 +15,7 @@ class UserDataTable extends DataTable
 {
     // Nama    : Muhamad Hudansah
     // NIM     : 6706223049
-    // Kelas   : D3IF-4603 
+    // Kelas   : D3IF-4603  
     public function dataTable(QueryBuilder $query): EloquentDataTable
     {
         return (new EloquentDataTable($query))

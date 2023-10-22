@@ -22,7 +22,7 @@ Kelas   : D3IF-4603
             </div>
         </div>
     </div>
-
+ 
 @push('scripts')
     {{ $dataTable->scripts(attributes: ['type' => 'module']) }}
     <script>

@@ -21,7 +21,7 @@ class User extends Authenticatable
     // Kelas   : D3IF-4603
     protected $fillable = [
         'username',
-        'fullname',
+        'fullname', 
         'email',
         'password',
         'address',

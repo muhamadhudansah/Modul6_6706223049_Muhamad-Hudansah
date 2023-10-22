@@ -17,7 +17,7 @@ class UserController extends Controller
         return $dataTable->render('user.daftarPengguna');
     }
 
-    public function showUser($username)
+    public function showUser($username) 
     {
         $user = User::where('username', $username)->firstOrFail();
         return view('user.infoPengguna', compact('user'));

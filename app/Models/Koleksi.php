@@ -15,7 +15,7 @@ class Koleksi extends Model
     
     protected $fillable = [
         'namaKoleksi',
-        'jenisKoleksi',
+        'jenisKoleksi', 
         'jumlahKoleksi',
         'jumlahKeluar',
         'jumlahSisa'

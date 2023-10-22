@@ -24,7 +24,7 @@ class KoleksiController extends Controller
         return $dataTable->render('koleksi.daftarKoleksi');
     }
 
-    public function show($id)
+    public function show($id) 
     {
         $koleksi = Koleksi::findOrFail($id);
         return view('koleksi.infoKoleksi', compact('koleksi'));

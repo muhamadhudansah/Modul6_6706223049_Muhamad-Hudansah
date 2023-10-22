@@ -7,7 +7,7 @@
 <!-- 
 Nama    : Muhamad Hudansah
 NIM     : 6706223049
-Kelas   : D3IF-4603 
+Kelas   : D3IF-4603  
 -->
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
