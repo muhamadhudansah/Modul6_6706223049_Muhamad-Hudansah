@@ -5,11 +5,10 @@
         </h2>
     </x-slot>
 <!-- 
-NAMA: MUHAMAD HUDANSAH
-NIM: 6706223049
-KELAS: 46-03 
+Nama    : Muhamad Hudansah
+NIM     : 6706223049
+Kelas   : D3IF-4603
 -->
-@section('content')
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
@@ -47,7 +46,7 @@ KELAS: 46-03
 
                         <!-- Tombol Submit -->
                         <div class="flex items-center justify-end mt-4">
-                            <a href="#" class="btn btn-dark" onclick="goBack()">Back</a>
+                            <a href="{{ route('koleksi.daftarKoleksi') }}" class="btn btn-dark"">Back</a>
                             <x-primary-button class="ml-4" type="submit">Tambah Koleksi</x-primary-button>
                         </div>
                     </form>
@@ -55,10 +54,4 @@ KELAS: 46-03
             </div>
         </div>
     </div>
-    <script>
-        function goBack() {
-            window.history.back();
-        }
-    </script>
-@endsection
 </x-app-layout>

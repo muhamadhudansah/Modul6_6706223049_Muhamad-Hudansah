@@ -4,24 +4,21 @@
             {{ __('Daftar Pengguna') }}
         </h2>
     </x-slot>
-<!-- 
-Nama    : Muhamad Hudansah
-NIM     : 6706223049
-Kelas   : D3IF-4603
+ <!-- 
+NAMA: MUHAMAD HUDANSAH
+NIM: 6706223049
+KELAS: 46-03
 -->
+@section('content')
     <div class="container">
-    @if(Session::has('success'))
-        <div class="alert alert-success">
-            {{ Session::get('success') }}
-        </div>
-    @endif
         <div class="card">
-            <!-- <div class="card-header"><a href="{{ route('user.registrasi') }}" class="btn btn-icon btn-dark">Tambah</a></div> -->
+            <div class="card-header"><a href="{{ route('user.registrasi') }}" class="btn btn-icon btn-dark">Tambah</a></div>
             <div class="card-body">
                 {{ $dataTable->table() }}
             </div>
         </div>
     </div>
+@endsection
  
 @push('scripts')
     {{ $dataTable->scripts(attributes: ['type' => 'module']) }}
