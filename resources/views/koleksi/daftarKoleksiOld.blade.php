@@ -6,7 +6,7 @@
     </x-slot>
  <!-- 
 NAMA: MUHAMAD HUDANSAH
-NIM: 6706223049
+NIM: 6706223049 
 KELAS: 46-03 
 -->
 

@@ -16,7 +16,7 @@ return new class extends Migration
             $table->integer('jumlahSisa');
         });
     }
-
+ 
     /**
      * Reverse the migrations.
      */

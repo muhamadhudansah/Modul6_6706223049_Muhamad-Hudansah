@@ -17,7 +17,7 @@ class User extends Authenticatable
          * @var array<int, string>
          */
     // Nama    : Muhamad Hudansah
-    // NIM     : 6706223049
+    // NIM     : 6706223049 
     // Kelas   : D3IF-4603
     protected $fillable = [
         'username',

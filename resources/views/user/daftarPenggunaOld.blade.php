@@ -7,7 +7,7 @@
  <!-- 
 NAMA: MUHAMAD HUDANSAH
 NIM: 6706223049
-KELAS: 46-03
+KELAS: 46-03 
 -->
 @section('content')
     <div class="container">
