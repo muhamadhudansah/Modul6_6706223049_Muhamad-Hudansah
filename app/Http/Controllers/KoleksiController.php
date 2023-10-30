@@ -12,7 +12,7 @@ class KoleksiController extends Controller
 
     // Nama    : Muhamad Hudansah
     // NIM     : 6706223049
-    // Kelas   : D3IF-4603 
+    // Kelas   : 46-03
 
     // public function index() {
     //     $koleksi = Koleksi::all();
@@ -24,7 +24,7 @@ class KoleksiController extends Controller
         return $dataTable->render('koleksi.daftarKoleksi');
     }
 
-    public function show($id) 
+    public function show($id)
     {
         $koleksi = Koleksi::findOrFail($id);
         return view('koleksi.infoKoleksi', compact('koleksi'));

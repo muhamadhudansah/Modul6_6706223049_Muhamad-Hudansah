@@ -26,6 +26,11 @@
                         {{ __('Koleksi') }}
                     </x-nav-link>
                 </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('transaksi.daftarTransaksi')" :active="request()->routeIs('transaksi.daftarTransaksi') || request()->routeIs('transaksi.registrasi') || request()->routeIs('transaksi.infoTransaksi') || request()->routeIs('transaksi.editTransaksi')">
+                        {{ __('Transaksi') }}
+                    </x-nav-link>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->

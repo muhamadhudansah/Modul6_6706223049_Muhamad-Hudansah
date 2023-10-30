@@ -15,11 +15,12 @@ return new class extends Migration
 
         Schema::create('koleksi', function (Blueprint $table) {
             $table->id();
-            $table->string('namaKoleksi', 100);
+            $table->string('namaKoleksi',100);
             $table->tinyInteger('jenisKoleksi');
             $table->timestamps();
             $table->integer('jumlahKoleksi');
-            
+            $table->integer('jumlahKeluar');
+            $table->integer('jumlahSisa');
         });
     }
 
