@@ -55,7 +55,7 @@ Kelas   : 4603
                                 @if ($transaksi->tanggalSelesai == null)
                                 <th class="border px-4 py-2">Action</th>
                                 @endif
-                            </tr>
+                            </tr> 
                         </thead>
                         <tbody>
                             @foreach($transaksiDetails as $key => $transaksii)

@@ -21,7 +21,7 @@ return new class extends Migration
             $table->integer('jumlahKoleksi');
             $table->integer('jumlahKeluar');
             $table->integer('jumlahSisa');
-        });
+        }); 
     }
 
     /**

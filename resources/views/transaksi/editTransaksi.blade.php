@@ -16,7 +16,7 @@ Kelas   : 4603
                         <form action="{{ route('transaksi.update', ['id' => $transaksiDetail->id]) }}" method="POST">
                             @csrf
                             @method('PUT')
-                            
+                             
                             @php
                                 $petugas = \App\Models\User::find($transaksi->idPetugas);
                                 $peminjam = \App\Models\User::find($transaksi->idPeminjam);

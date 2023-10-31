@@ -16,7 +16,7 @@ Kelas   : 4603
                     @if(Session::has('success'))
                         <div class="alert alert-success">
                             {{ Session::get('success') }}
-                        </div>
+                        </div> 
                     @endif
 
                     <form action="{{ route('transaksi.store') }}" method="POST">

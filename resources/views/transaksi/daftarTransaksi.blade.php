@@ -14,7 +14,7 @@ Kelas   : 4603
         <div class="alert alert-success">
             {{ Session::get('success') }}
         </div>
-    @endif
+    @endif 
         <div class="card">
             <div class="card-body">
                 {{ $dataTable->table() }}
