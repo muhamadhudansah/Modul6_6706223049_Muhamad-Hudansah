@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Transaksi extends Model
 {
     use HasFactory;
-    // Nama    : Muhamad Hudansah
+    // Nama    : Muhamad Hudansah 
     // NIM     : 6706223049
     // Kelas   : 46-03
     protected $table = 'transaksi';

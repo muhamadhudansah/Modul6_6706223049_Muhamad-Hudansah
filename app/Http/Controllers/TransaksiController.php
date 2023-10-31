@@ -11,8 +11,8 @@ use App\Models\Koleksi;
 use App\DataTables\TransaksiDataTable;
 use Carbon\Carbon;
 
-// Nama    : Muhamad Hudansah
-// NIM     : 6706223049
+// Nama    : Muhamad Hudansah 
+// NIM     : 6706223049 
 // Kelas   : 4603
 
 class TransaksiController extends Controller

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Koleksi extends Model
 {
-    use HasFactory;
+    use HasFactory; 
     // Nama    : Muhamad Hudansah
     // NIM     : 6706223049 
     // Kelas   : D3IF-4603

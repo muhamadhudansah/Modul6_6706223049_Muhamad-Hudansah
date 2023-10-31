@@ -14,7 +14,7 @@ class KoleksiController extends Controller
     // NIM     : 6706223049
     // Kelas   : 46-03
 
-    // public function index() {
+    // public function index() { 
     //     $koleksi = Koleksi::all();
     //     return view('koleksi.daftarKoleksi', compact('koleksi'));
     // }

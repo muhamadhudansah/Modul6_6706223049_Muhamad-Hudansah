@@ -8,7 +8,7 @@ use App\DataTables\UserDataTable;
 
 class UserController extends Controller
 {
-    // Nama    : Muhamad Hudansah
+    // Nama    : Muhamad Hudansah 
     // NIM     : 6706223049
     // Kelas   : D3IF-4603 
     
